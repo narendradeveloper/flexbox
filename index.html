@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      #keyboard{
+         text-align: center;
+         margin-top: 100px;
+         border: 2px solid white;
+         background-color:rgb(223, 213, 213);
+         padding-top:45px;
+         padding-bottom:45px;
+         margin-left: 100px;
+         margin-right: 100px;
+         border-radius: 8px;
+         box-shadow: 20px 10px 10px ghostwhite;
+         display: flex;
+      }
+      span:hover{
+         cursor: pointer;
+         transition: 400ms;
+         background-color: hotpink;
+         border-color:hotpink;
+         color: black;
+         border:
+      }
+      .first{
+         padding-left: 10px;
+         padding-right: 20px;
+         padding-top: 3px;
+         padding-bottom: 3px;
+         background-color: black;
+         color: white;
+         border-radius: 8px;
+         box-shadow: 5px 10px 8px ghostwhite;
+         border: 2px solid black;
+         margin: 2px;
+         display: flex;
+      }
+      .second{
+         padding-left: 19px;
+         padding-right: 19px;
+         padding-top: 15px;
+         padding-bottom: 15px;
+         background-color: black;
+         color: white;
+         border-radius: 8px;
+         box-shadow: 5px 10px 8px ghostwhite;
+         border: 2px solid black;
+         margin: 3.5px;
+         display:flex;
+      }
+      .third{
+         padding-left: 19.5px;
+         padding-right: 19px;
+         padding-top: 15px;
+         padding-bottom: 15px;
+         background-color: black;
+         color: white;
+         border-radius: 8px;
+         box-shadow: 5px 10px 8px ghostwhite;
+         border:2px solid black ;
+         margin: 3.5px;
+         display: flex;
+      }
+      .third{
+         margin: 4px;
+      }
+      .fourth{
+         padding-left: 22px;
+         padding-right: 22px;
+         padding-top: 15px;
+         padding-bottom: 15px;
+         background-color: black;
+         color: white;
+         border-radius: 8px;
+         box-shadow: 5px 10px 8px ghostwhite;
+         border: 2px solid black;
+         margin: 3px;
+         display:flex;
+      } 
+      .longkey{
+         padding-left: 27px;
+         padding-right: 27px;
+         padding-top: 16px;
+         padding-bottom: 18px;
+         border-radius: 8px;
+         border: 2px solid black;
+         box-shadow: 5px 10px 8px ghostwhite;
+         background-color: black;
+         color:white;
+      }
+      .tab{
+         padding-left: 44px;
+         padding-right: 44px;
+         padding-top: 16px;
+         padding-bottom: 16px;
+         border-radius: 8px;
+         border: 2px solid black;
+         box-shadow: 5px 10px 8px ghostwhite;
+         background-color: black;
+         color:white;
+      }
+      .caps{
+         padding-left: 25px;
+         padding-right: 25px;
+         padding-top: 18px;
+         padding-bottom: 18px;
+         border-radius: 8px;
+         border: 2px solid black;
+         box-shadow: 5px 10px 8px ghostwhite;
+         background-color: black;
+         color: white;
+      }
+      .shift{
+         padding-left: 63px;
+         padding-right: 56px;
+         padding-top: 16px;
+         padding-bottom: 18px;
+         border-radius: 8px;
+         border: 2px solid black;
+         box-shadow: 5px 10px 8px ghostwhite;
+         background-color: black;
+         color:white;
+      }
+      .space{
+         padding-left: 145px;
+         padding-right: 145px;
+         padding-top: 14px;
+         padding-bottom: 15px;
+         border-radius: 8px;
+         border: 2px solid black;
+         box-shadow: 5px 10px 8px ghostwhite;
+         background-color: black;
+         color:white;
+      } 
+      .six{
+         padding-left: 25px;
+         padding-right: 22x;
+         padding-top: 15px;
+         padding-bottom: 15px;
+         background-color: black;
+         color: white;
+         border-radius: 8px;
+         box-shadow: 5px 10px 8px ghostwhite;
+         border: 2px solid black;
+         margin: 3px; 
+         display:flex;
+       } 
+       .look{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+       }
+       .seven{
+         height: 10px;
+         width: 90px;
+         padding-top: 40px;
+         padding-bottom: 128px;
+         background-color: black;
+         color: white;
+         border-radius: 8px;
+         box-shadow: 5px 10px 8px ghostwhite;
+         border: 2px solid black;
+         margin: 250px;
+         align-content: center;
+         align-items: center;
+         justify-content: center;
+         padding:90px ;
+         padding-right: 300px;
+         padding-right:300px ;
+         display: flex;
+         
+       }
+       .looks{
+         text-align: center;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         align-content: center;
+         margin: -230px;
+         margin-right: -100px;
+       }
+       
+   </style>
+</head>
+<body>
+   <div id="keybord">
+      <div class="look">
+         <span class="first">Esc</span>
+         <span class="first">f1</span>
+         <span class="first">f2</span>
+         <span class="first">f3</span>
+         <span class="first">f4</span>
+         <span class="first">f5</span>
+         <span class="first">f6</span>
+         <span class="first">f7</span>
+         <span class="first">f8</span>
+         <span class="first">f9</span>
+         <span class="first">f10</span>
+         <span class="first">f11</span>
+         <span class="first">f12</span>
+         <span class="first">PatScr</span>
+         <span class="first">Insert</span>
+         <span class="first">Delete</span>  
+         <br>
+         <br>
+         <br>
+         
+      </div>
+
+   <div class="look">
+      <span class="second">~</span>
+      <span class="second"><sub>1</sub><sub>!</sub></span>
+      <span class="second"><sub>2</sub><sub>@</sub></span>
+      <span class="second"><sub>3</sub><sub>#</sub></span>
+      <span class="second"><sub>4</sub><sub>$</sub></span>
+      <span class="second"><sub>5</sub><sub>%</sub></span>
+      <span class="second"><sub>6</sub><sub>^</sub></span>
+      <span class="second"><sub>7</sub><sub>&</sub></span>
+      <span class="second"><sub>8</sub><sub>*</sub></span>
+      <span class="second"><sub>9</sub><sub>(</sub></span>
+      <span class="second"><sub>0</sub><sub>)</sub></span>
+      <span class="second"><sub>-</sub><sub>_</sub></span>
+      <span class="second"><sub>=</sub><sub>+</sub></span>
+      <span class="longkey">Backspace</span>
+      <br>
+      <br>
+      <br>
+   </div>
+   <div class="look">
+      <span class="tab">tab</span>
+      <span class="third">Q</span>
+      <span class="third">w</span>
+      <span class="third">E</span>
+      <span class="third">R</span>
+      <span class="third">T</span>
+      <span class="third">Y</span>
+      <span class="third">U</span>
+      <span class="third">I</span>
+      <span class="third">O</span>
+      <span class="third">P</span>
+      <span class="third"><sub>[</sub><sub>{</sub></span>
+        <span class="third"><sub>]</sub><sub>}</sub></span>
+        <span class="tab"><sub>\</sub><sub>|</sub></span>
+<br>
+<br>
+<br>
+   </div>
+   <div class="look">
+      <span class="caps">CapsLock</span>
+      <span  class="fourth">A</span>
+      <span  class="fourth">S</span>
+      <span  class="fourth">D</span>
+      <span  class="fourth">F</span>
+      <span  class="fourth">G</span>
+      <span  class="fourth">H</span>
+      <span  class="fourth">J</span>
+      <span  class="fourth">K</span>
+      <span class="fourth">L</span>
+      <span  class="fourth"><sub>;</sub><sub>:</sub></span>
+      <span  class="fourth"><sub>'</sub><sub>"</sub></span>
+      <span class="tab">Enter</span>
+<br>
+<br>
+<br>
+   </div>
+   <div class="look">
+      <span class="shift">shift</span>
+      <span class="fourth">Z</span>  
+        <span class="fourth">X</span>    
+      <span class="fourth">C</span>
+      <span class="fourth">V</span>
+      <span class="fourth">B</span>  
+        <span class="fourth">N</span>
+      <span class="fourth">M</span>
+      <span class="fourth">,</span>
+      <span class="fourth"><sub>.</sub><sub>></sub></span>
+      <span class="fourth"><sub>/</sub><sub>?</sub></span>
+      <span class="shift">shift</span>
+      <br>
+      <br>
+      <br>
+   </div>
+   <div class="look">
+      <span class="six">Ctrl</span>
+      <span class="six">Fn</span> 
+      <span class="six">wind</span> 
+      <span class="six">Alt</span>
+      <span class="space">Space</span>
+      <span class="six">Alt</span>
+      <span class="six">Ctrl</span>
+      <span class="six">Home</span>
+      <span class="six">PgUp</span>
+      <span class="six">PgDn</span>
+      <span class="six">End</span>
+      <br>
+      <br>
+      <br>
+   </div>
+   <div class="looks">
+      <p class="seven"></p>
+      <br>
+      <br>
+      <br>
+   </div>
+</body>
+</html>
